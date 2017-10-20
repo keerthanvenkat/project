@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this my blog site</title>
+</head>
+<body>
+<!--day9-->
+{% for value in namesdb %}
+	<p> author : {{ value.author }}</p>
+	<p>email : {{value.email}}</p>
+	<p> published : {{ value.published_date }} </p>
+	<h2><a href=""> {{ value.title}} </a></h2>
+	<p> {{ value.text}} </p>
+{% endfor %}
+
+<!--day8-->
+	<!--<div>
+		<p>pubished : 7/13/2017 1:20</p>
+		<h2><a href=" ">My First Post</a></h2>
+		<p>today i am learning about static files of django along with the dynamic data entry o f database by to way   as well as good things learning today class very understanding </p>
+	</div>
+	<div><p>pubished : 7/13/2017 1:26</p>
+		<h2><a href=" ">My Second Post</a></h2>
+		<p>today i am learning about static files of django along with the dynamic data entry o f database by integrating ORm Stuff knowledge things </p>
+	</div>-->
+
+</body>
+</html>
